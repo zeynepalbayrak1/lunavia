@@ -1,0 +1,64 @@
+{
+  "aries": {
+    "general": "Your energy is high today—perfect for fresh starts.",
+    "advice": "Be brave and don’t miss opportunities.",
+    "aiPersonalized": "Mars makes you more competitive—use your leadership skills."
+  },
+  "taurus": {
+    "general": "Today calls for patience.",
+    "advice": "It’s a good day to make financial plans.",
+    "aiPersonalized": "Venus hints at surprises in your love life."
+  },
+  "gemini": {
+    "general": "Your communication skills will shine today.",
+    "advice": "It’s a great time to meet new people.",
+    "aiPersonalized": "Mercury retrograde urges you to pay attention to details."
+  },
+  "cancer": {
+    "general": "Emotional sensitivity is heightened today.",
+    "advice": "Spend time with loved ones for emotional support.",
+    "aiPersonalized": "The Moon’s influence deepens your intuition—trust it."
+  },
+  "leo": {
+    "general": "You’re full of charisma and ready to take the spotlight.",
+    "advice": "Express yourself confidently in social settings.",
+    "aiPersonalized": "The Sun boosts your creative energy—use it boldly."
+  },
+  "virgo": {
+    "general": "Details matter today—stay organized.",
+    "advice": "Focus on completing unfinished tasks.",
+    "aiPersonalized": "Mercury helps sharpen your analytical thinking—make good use of it."
+  },
+  "libra": {
+    "general": "Balance and harmony are your focus today.",
+    "advice": "Seek peaceful solutions in conflicts.",
+    "aiPersonalized": "Venus inspires artistic expression and relationship growth."
+  },
+  "scorpio": {
+    "general": "Emotions run deep—stay calm and grounded.",
+    "advice": "Don’t rush into decisions—let things unfold.",
+    "aiPersonalized": "Pluto empowers transformation—embrace inner change."
+  },
+  "sagittarius": {
+    "general": "Adventure calls—you’re ready for something new.",
+    "advice": "Explore new ideas or places today.",
+    "aiPersonalized": "Jupiter expands your perspective—think big."
+  },
+  "capricorn": {
+    "general": "Discipline leads to progress today.",
+    "advice": "Stick to your goals with focus.",
+    "aiPersonalized": "Saturn helps you build long-term success through persistence."
+  },
+  "aquarius": {
+    "general": "Innovation and independence define your day.",
+    "advice": "Think outside the box and stay true to yourself.",
+    "aiPersonalized": "Uranus supports sudden insights and creative breakthroughs."
+  },
+  "pisces": {
+    "general": "Imagination flows—perfect for creativity or reflection.",
+    "advice": "Take time for spiritual or artistic pursuits.",
+    "aiPersonalized": "Neptune enhances your dreams and intuition—follow your inner voice."
+  }
+}
+
+   

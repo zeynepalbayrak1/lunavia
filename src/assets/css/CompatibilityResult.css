@@ -1,0 +1,14 @@
+.compatibility-result {
+  background: #f9f1ff;
+  border: 2px solid #e1cbee;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+  text-align: left;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  font-family: "Georgia", serif;
+}
+
+.compatibility-result h3 span {
+  color: #6a0dad;
+}

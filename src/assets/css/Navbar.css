@@ -1,0 +1,145 @@
+.navbar {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  background-color: #1e0c45;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  z-index: 999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  font-family: "Georgia", serif;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* color: #ffd700; altın rengi */
+  color: white;
+  font-family: "Georgia", serif;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: #fff !important;
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffd700;
+}
+
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #daba02;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.active {
+  color: #daba02 !important;
+  font-weight: bold;
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Login olduktan sonra */
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.user-initial-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #daba02;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #1e0c45;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .user-menu {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 8px;
+  }
+
+  .user-initial-avatar {
+    margin-bottom: 5px;
+  }
+}

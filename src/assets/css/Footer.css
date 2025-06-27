@@ -1,0 +1,19 @@
+footer .footer-container {
+  padding: 20px;
+  height: 100px;
+  text-align: center;
+  background-color: #000000;
+  font-family: "Georgia", serif;
+}
+
+footer p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+@media (max-width: 600px) {
+  footer p {
+    font-size: 0.85rem;
+  }
+}

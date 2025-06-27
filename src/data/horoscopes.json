@@ -1,0 +1,67 @@
+
+[
+     {
+       "name": "Aries",
+       "description": "Be bold and take initiative today.",
+       "image": "../../public/img/aries.png"
+     },
+     {
+       "name": "Taurus",
+       "description": "Stay grounded and focus on your goals.",
+       "image":  "../../public/img/taurus.png"
+     },
+
+     
+     {
+       "name": "Gemini",
+       "description": "Share your ideas and connect with others.",
+       "image":  "../../public/img/gemini.png"
+     },
+     {
+       "name": "Cancer",
+       "description": "Embrace your emotions and be kind to yourself.",
+       "image":  "../../public/img/cancer.png"
+     },
+     {
+       "name": "Leo",
+       "description": "Shine with confidence and lead with heart.",
+       "image":  "../../public/img/leo.png"
+     },
+     {
+       "name": "Virgo",
+       "description": "Organize your thoughts and take steady steps.",
+       "image":  "../../public/img/virgo.png"
+     },
+     {
+       "name": "Libra",
+       "description": "Seek balance in relationships and decisions.",
+       "image":  "../../public/img/libra.png"
+     },
+     {
+       "name": "Scorpio",
+       "description": "Trust your instincts and transform challenges.",
+       "image":  "../../public/img/scorpio.png"
+     },
+     {
+       "name": "Sagittarius",
+       "description": "Explore new perspectives with courage.",
+       "image":  "../../public/img/sagittarius.png"
+     },
+     {
+       "name": "Capricorn",
+       "description": "Discipline leads to real achievements.",
+       "image": "/img/capricornus.png"
+     },
+     {
+       "name": "Aquarius",
+       "description": "Think uniquely and help your community.",
+       "image":  "../../public/img/aquarius.png"
+     },
+     {
+       "name": "Pisces",
+       "description": "Let your intuition guide you creatively.",
+       "image":  "../../public/img/pisces.png"
+     }
+     
+   ]
+   

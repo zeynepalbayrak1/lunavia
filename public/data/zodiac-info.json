@@ -1,0 +1,74 @@
+{
+  "Aries": {
+    "element": "Fire 🔥",
+    "planet": "Mars ♂️",
+    "compatible": ["Leo", "Sagittarius", "Gemini"],
+    "description": "You are energetic, courageous, and a natural leader."
+  },
+  "Taurus": {
+    "element": "Earth 🌿",
+    "planet": "Venus ♀️",
+    "compatible": ["Virgo", "Capricorn", "Cancer"],
+    "description": "You are loyal, patient, and dependable."
+  },
+  "Gemini": {
+    "element": "Air 🌬️",
+    "planet": "Mercury ☿️",
+    "compatible": ["Libra", "Aquarius", "Aries"],
+    "description": "You are intelligent, curious, and adaptable."
+  },
+  "Cancer": {
+    "element": "Water 🌊",
+    "planet": "Moon 🌙",
+    "compatible": ["Scorpio", "Pisces", "Taurus"],
+    "description": "You are emotional, nurturing, and intuitive."
+  },
+  "Leo": {
+    "element": "Fire 🔥",
+    "planet": "Sun ☀️",
+    "compatible": ["Aries", "Sagittarius", "Libra"],
+    "description": "You are confident, creative, and charismatic."
+  },
+  "Virgo": {
+    "element": "Earth 🌿",
+    "planet": "Mercury ☿️",
+    "compatible": ["Taurus", "Capricorn", "Cancer"],
+    "description": "You are analytical, practical, and detail-oriented."
+  },
+  "Libra": {
+    "element": "Air 🌬️",
+    "planet": "Venus ♀️",
+    "compatible": ["Gemini", "Aquarius", "Leo"],
+    "description": "You are balanced, diplomatic, and charming."
+  },
+  "Scorpio": {
+    "element": "Water 🌊",
+    "planet": "Pluto ♇",
+    "compatible": ["Cancer", "Pisces", "Capricorn"],
+    "description": "You are passionate, mysterious, and determined."
+  },
+  "Sagittarius": {
+    "element": "Fire 🔥",
+    "planet": "Jupiter ♃",
+    "compatible": ["Aries", "Leo", "Aquarius"],
+    "description": "You are adventurous, optimistic, and freedom-loving."
+  },
+  "Capricorn": {
+    "element": "Earth 🌿",
+    "planet": "Saturn ♄",
+    "compatible": ["Taurus", "Virgo", "Pisces"],
+    "description": "You are disciplined, ambitious, and responsible."
+  },
+  "Aquarius": {
+    "element": "Air 🌬️",
+    "planet": "Uranus ♅",
+    "compatible": ["Gemini", "Libra", "Sagittarius"],
+    "description": "You are independent, innovative, and humanitarian."
+  },
+  "Pisces": {
+    "element": "Water 🌊",
+    "planet": "Neptune ♆",
+    "compatible": ["Cancer", "Scorpio", "Capricorn"],
+    "description": "You are compassionate, imaginative, and intuitive."
+  }
+}

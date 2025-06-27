@@ -1,0 +1,145 @@
+.main-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+.main-header .container {
+  position: relative;
+  z-index: 1;
+  font-family: "Georgia", serif;
+}
+.typewrite {
+  margin-top: -10px;
+}
+
+/* daily sign section and intro zodiac section */
+.daily-sign-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 20px;
+  background-color: #1e0c45;
+  color: #ffffff;
+  gap: 40px;
+  flex-wrap: wrap;
+  font-family: "Georgia", serif;
+}
+.daily-sign-section .row {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 30px;
+}
+
+.daily-sign-left,
+.daily-sign-right {
+  flex: 1;
+  min-width: 300px;
+  align-items: center; 
+  text-align: center; 
+}
+
+.daily-sign-left .sign-box {
+  background-color: rgb(74, 55, 132);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgb(158, 99, 210);
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.daily-sign-left h2,
+.daily-sign-right h2 {
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+/* find your zodiac */
+.find-zodiac-section {
+  background-color: #1e0c45;
+  color: #fff;
+  padding: 60px 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  font-family: "Georgia", serif;
+}
+
+.find-zodiac-section:hover {
+  transform: scale(1.01);
+}
+
+.find-zodiac-section h2 {
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 35px;
+}
+
+.find-zodiac-section .form-control {
+  border: 2px solid #ffe08a;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+}
+
+.find-zodiac-section .btn-primary {
+  background-color: #5c2c90;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.find-zodiac-section .btn-primary:hover {
+  background-color: #7f4cb2;
+  transform: translateY(-2px);
+}
+
+.find-zodiac-section .sign-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 30px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.find-zodiac-section .sign-box h3 {
+  font-size: 1.8rem;
+  color: #daba02;
+  margin-bottom: 15px;
+}
+
+.find-zodiac-section .sign-box img {
+  border-radius: 50%;
+  border: 2px solid #daba02;
+}
+
+.f .sign-box p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #f1f1f1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

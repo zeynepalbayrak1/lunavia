@@ -1,0 +1,181 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: #ede7f6;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.aries-container {
+  font-family: "Georgia", serif;
+  color: #2c2c2c;
+  padding: 2rem;
+  width: 100vw;
+  padding: 40px 30px;
+  background: #f3ebff;
+  box-sizing: border-box;
+  margin-top: 50px;
+  line-height: 1.6;
+  color: #f0f0f0;
+  background: linear-gradient(to bottom right, #1a1a2e, #16213e);
+}
+
+.welcome-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: radial-gradient(circle, #a641ff, #752bff);
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(94, 65, 255, 0.4);
+  margin-bottom: 3rem;
+}
+
+.welcome-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.welcome-section p {
+  font-size: 1.2rem;
+  color: #ffe6e6;
+}
+
+.aries-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.aries-nav a {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  background-color: #3a3a52;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.aries-nav a:hover {
+  background-color: #5d5d79;
+}
+
+.aries-section {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #23233b;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.aries-section h2 {
+  color: #f1e1ff;
+  margin-bottom: 1rem;
+}
+
+.traits-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.traits-columns div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.toggle-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.toggle-buttons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #444;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-buttons button.active {
+  background-color: #bc2bff;
+}
+
+.horoscope-card {
+  background-color: #2f2f45;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.compatibility-selectors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.compatibility-selectors label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.compatibility-selectors select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #3a3a52;
+  color: white;
+}
+
+.compatibility-result {
+  background-color: #2f2f45;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.calendar-split {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.calendar-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.calendar-widget {
+  flex: 1;
+  min-width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .traits-columns,
+  .calendar-split,
+  .compatibility-selectors {
+    flex-direction: column;
+  }
+
+  .aries-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .toggle-buttons {
+    flex-direction: column;
+  }
+}

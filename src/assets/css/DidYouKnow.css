@@ -1,0 +1,39 @@
+.did-you-know-section {
+  padding: 2rem 1rem;
+  background-color: #1e0c45;
+  text-align: center;
+  font-family: "Georgia", serif;
+}
+
+.did-you-know-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.fact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.fact-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 140px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.fact-card:hover {
+  transform: translateY(-4px);
+}
+
+.emoji {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}

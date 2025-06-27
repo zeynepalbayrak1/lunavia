@@ -1,0 +1,37 @@
+{
+  "aries": {
+    "dateRange": "March 21 - April 19",
+    "element": "Fire",
+    "planet": "Mars",
+    "colors": ["Red", "Scarlet"],
+    "luckyNumbers": [1, 9],
+    "traits": {
+      "strengths": ["Courageous", "Confident", "Energetic"],
+      "weaknesses": ["Impatient", "Impulsive", "Short-tempered"]
+    },
+    "personality": "Aries is the zodiac's first sign, a natural leader with fiery energy and adventurous spirit.",
+    "love": {
+      "description": "Passionate and intense lovers who seek excitement and honesty.",
+      "bestMatches": ["Leo", "Sagittarius", "Gemini"],
+      "challengingMatches": ["Cancer", "Capricorn"]
+    },
+    "career": {
+      "description": "Driven by competition and leadership roles, Aries thrives in fast-paced jobs.",
+      "strengths": ["Ambitious", "Decisive", "Energetic"],
+      "weaknesses": ["Impulsive", "Impatient"]
+    },
+    "health": {
+      "description": "High energy levels require regular physical activity; prone to headaches."
+    },
+    "dailyHoroscope": "Today is a day to take bold steps, but be mindful of impulsiveness.",
+    "compatibility": {
+      "high": ["Leo", "Sagittarius", "Gemini"],
+      "low": ["Cancer", "Capricorn"]
+    },
+    "energyLevels": {
+      "passion": 90,
+      "confidence": 85,
+      "stamina": 80
+    }
+  }
+}

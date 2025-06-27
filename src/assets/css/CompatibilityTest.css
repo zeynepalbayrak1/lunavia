@@ -1,0 +1,146 @@
+body {
+  font-family: "Georgia", serif;
+}
+.container-comtability {
+  background-color: #9993c6;
+  padding: 20px;
+}
+.compatibility-test-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #1e1a3d !important;
+  border-radius: 16px;
+  color: white;
+  text-align: center;
+}
+
+.selectors {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+select,
+button {
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #1e1a3d;
+}
+
+.compatibility-result {
+  background-color: #3a3270;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.compatibility-test-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #2a2455;
+  border-radius: 16px;
+  color: white;
+  text-align: center;
+}
+
+.selectors {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+select,
+button {
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.compatibility-result {
+  background-color: #3a3270;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+/**/
+.compatibility-test-container {
+  max-width: 450px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #7b52ff, #3a0ca3);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(123, 82, 255, 0.7);
+}
+
+h2 {
+  margin-bottom: 1.2rem;
+}
+
+.selectors {
+  display: flex;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+select {
+  flex: 1;
+  min-width: 120px;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.7rem 1.2rem;
+  background-color: #742bb8;
+  color: #3a0ca3;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #c084fc;
+  color: white;
+}
+
+.result {
+  margin-top: 1.5rem;
+  background: rgba(255 255 255 / 0.15);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 10px #a78bfa;
+}
+
+.result h3 {
+  margin-bottom: 0.6rem;
+}
+
+.progress-bar-container {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  height: 20px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #9d7efd, #6b21a8);
+  border-radius: 10px 0 0 10px;
+  transition: width 0.5s ease;
+}
