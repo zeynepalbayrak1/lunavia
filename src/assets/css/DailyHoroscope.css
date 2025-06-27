@@ -122,6 +122,8 @@ body {
   text-align: center;
   font-style: italic;
   height: 50vh;
+  background: linear-gradient(135deg, #260f5b, #311b92, #180a3a);
+  
 }
 
 .background-image {

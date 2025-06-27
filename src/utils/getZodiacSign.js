@@ -1,4 +1,4 @@
-// src/utils/getZodiacSign.js
+
 JSON.parse(localStorage.getItem("users"))
 
 export default function getZodiacSign(day, month) {

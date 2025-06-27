@@ -8,6 +8,8 @@ body {
   background-color: #1e1a3d;
   color: #f0e6ff;
   border-radius: 16px;
+  background: linear-gradient(135deg, #260f5b, #311b92, #180a3a);
+
 }
 
 .astro-title {

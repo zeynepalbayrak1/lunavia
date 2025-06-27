@@ -13,6 +13,8 @@ body {
   border-radius: 16px;
   color: white;
   text-align: center;
+  background: linear-gradient(135deg, #260f5b, #311b92, #180a3a);
+
 }
 
 .selectors {

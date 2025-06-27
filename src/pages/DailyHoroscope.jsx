@@ -74,11 +74,6 @@ export default function DailyHoroscope() {
     <>
       <Navbar />
       <div className="image-container">
-        <img
-          src="../../public/img/bg5.jpg"
-          alt="Arka Plan"
-          className="background-image"
-        />
         <div className="overlay-color"></div>
         <div className="overlay-text">
           <h2>🔮☀️ Your Cosmic Clue for Today 🌟📜</h2>

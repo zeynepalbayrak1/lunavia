@@ -81,11 +81,6 @@ export default function CompatibilityTest() {
   return (
     <>
       <div className="image-container">
-        <img
-          src="../../public/img/bg5.jpg"
-          alt="Arka Plan"
-          className="background-image"
-        />
         <div className="overlay-color"></div>
         <div className="overlay-text">
           <h2>🔮✨ Stars Know Your Connection 🌌💞</h2>

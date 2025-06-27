@@ -37,12 +37,7 @@ function AstroCalendarPage() {
 
   return (
     <>
-      <div className="image-container">
-        <img
-          src="../../public/img/bg5.jpg"
-          alt="Arka Plan"
-          className="background-image"
-        />
+      <div className="image-container"> 
         <div className="overlay-color"></div>
         <div className="overlay-text">
           <h2>🎴✨ Your Monthly Map to the Stars 🌟🗺️</h2>
